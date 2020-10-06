@@ -37,9 +37,9 @@ export function Body() {
   ];
   return (
     <div className="mb-5">
-      <h3 className="my-4 text-center">
+      <h1 className="my-4 text-center">
         <u>Top Category:</u>
-      </h3>
+      </h1>
       <div className="body text-center">
         {cardType.map((val, id) => {
           return <CardComponent characteristics={val} key={id} />;

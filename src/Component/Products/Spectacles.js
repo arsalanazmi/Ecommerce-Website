@@ -42,9 +42,9 @@ export function ProductSpectacles() {
   ];
   return (
     <div className="mb-5">
-      <h2 className="my-4 text-center">
+      <h1 className="my-4 text-center">
         <u>Spectacles</u>
-      </h2>
+      </h1>
       <div className="body text-center">
         {cards.map((val, id) => (
           <Spectacles characteristics={val} key={id} />
@@ -57,11 +57,11 @@ export function ProductSpectacles() {
 export function Spectacles(props) {
   return (
     <div className="box" style={{ padding: "10px" }}>
-      <Card style={{ width: "13rem" }}>
+      <Card style={{ width: "16rem" }}>
         <Card.Img
           variant="top"
           src={props.characteristics.img}
-          style={{ height: "160px" }}
+          style={{ height: "180px" }}
         />
         <Card.Body>
           <Card.Title className="title">{props.characteristics.title}</Card.Title>

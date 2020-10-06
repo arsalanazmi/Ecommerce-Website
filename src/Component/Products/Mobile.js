@@ -42,9 +42,9 @@ export function ProductMobile() {
   ];
   return (
     <div className="mb-5">
-      <h2 className="my-4 text-center">
+      <h1 className="my-4 text-center">
         <u>Mobile</u>
-      </h2>
+      </h1>
       <div className="body text-center">
         {cards.map((val, id) => (
           <Mobile characteristics={val} key={id} />
@@ -57,7 +57,7 @@ export function ProductMobile() {
 export function Mobile(props) {
   return (
     <div className="box" style={{ padding: "10px" }}>
-      <Card style={{ width: "14rem" }}>
+      <Card style={{ width: "16rem" }}>
         <Card.Img
           variant="top"
           src={props.characteristics.img}

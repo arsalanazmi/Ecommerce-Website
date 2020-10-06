@@ -1,5 +1,15 @@
 .slider {
-  height: 400px;
+  height: 700px;
+}
+@media only screen and (max-width: 600px) {
+  .slider {
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 960px)and (min-width: 601px) {
+  .slider {
+    height: 600px;
+  }
 }
 .brand{
   color: rgb(41, 157, 161) !important;
@@ -17,6 +27,7 @@
 }
 .box:hover{
   box-shadow: 1px 1px 5px 1px;
+  cursor: pointer;
 }
 .icon{
   color:rgb(205, 232, 243);
@@ -26,10 +37,11 @@
   transition: 0.6s;
 }
 .description{
-font-size: 10px;
+font-size: 15px;
 }
 .title{
-  font-size: 17px !important;
+  font-size: 22px !important;
+  font-weight: bold !important;
 }
 .contact{
   background-color: pink;

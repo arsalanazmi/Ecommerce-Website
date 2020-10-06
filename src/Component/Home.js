@@ -104,11 +104,11 @@ export function Home() {
 export function CardComponent(props) {
   return (
     <div className="box" style={{ padding: "10px" }}>
-      <Card style={{ width: "13rem" }}>
+      <Card style={{ width: "16rem" }}>
         <Card.Img
           variant="top"
           src={props.characteristics.img}
-          style={{ height: "160px" }}
+          style={{ height: "180px" }}
         />
         <Card.Body>
           <Card.Title className="title">{props.characteristics.title}</Card.Title>
